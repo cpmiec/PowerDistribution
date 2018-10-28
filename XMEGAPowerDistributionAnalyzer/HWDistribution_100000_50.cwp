@@ -1,0 +1,10 @@
+[Trace Management]
+tracefile0 = HWDistribution_100000_50_data\traces\config_2018.10.13-11.44.41_.cfg
+enabled0 = True
+[ChipWhisperer]
+[[General Settings]]
+Project Name = Untitled
+Program Name = ChipWhisperer
+Project File Version = 1.00
+Project Author = Unknown
+Program Version = V4.0.1
