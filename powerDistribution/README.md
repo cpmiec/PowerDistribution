@@ -2,7 +2,7 @@
 
 这个工程模拟了《能量分析攻击》一书中p53中的图4.4，实验平台为ChipWhisperer 1173开发板，其中包括有以下几个部分：
 
-1. 纯数学仿真，能耗的均值方差均用书上p53数据（MatlabSimulation文件夹中）。![histogram](https://github.com/cpmiec/basicExperimentsPowerAnalysis/blob/master/powerDistribution/MatlabSimulation/histogram.png)
+1. 纯数学仿真，能耗的均值方差均用书上p53数据（MatlabSimulation文件夹中）。![histogram](./MatlabSimulation/histogram.png)
 
 2. 从电脑端接收一个16字节的数组，并且将数组的第一个字节赋值给一个变量，在赋值过程中收集能耗信息（XMEGAPowerDistributionCapturer）。
 
