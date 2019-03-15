@@ -32,8 +32,8 @@ aaa=np.load(r'./Nooperation_data/traces/2018.08.04-20.05.07_traces.npy')
 [traceRow,traceCol]=np.shape(trace)
 averTrace=(np.sum(trace,axis=0)-np.sum(aaa,axis=0))/traceRow
 #averTrace=np.sum(trace,axis=0)/traceRow
-fig1=plt.figure(1,figsize=(4.5,3))
-ax1=fig1.add_axes([0.12,0.15,0.8,0.75])
+fig1=plt.figure(1,figsize=(4.8,3))
+ax1=fig1.add_axes([0.18,0.15,0.75,0.75])
 ax1.plot(averTrace,linewidth=0.5)
 plt.xlabel("Sampling point",fontdict=xylabelfont)
 plt.ylabel("Power consumption",fontdict=xylabelfont)
